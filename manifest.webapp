@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "name": "SMS Backup",
+  "description": "SMS Backup",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "icons": {
+    "56": "/img/icon-56.png",
+	"112": "/img/icon-112.png"
+  },
+  "developer": {
+    "name": "F."
+  },
+  "fullscreen": false,
+  "permissions": {
+	"sms": {},
+	"storage": {},
+	"device-storage:sdcard": {
+		"access": "readwrite"
+	}
+  },
+  "theme_color": "#ffd100",
+  "cursor": "false"
+}

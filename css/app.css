@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-size: 0.95rem;
+  background: #FFFFFF;
+  color: #000000;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-family: monospace;
+  font-size: 1.0rem;
+}
+
+main {
+  padding: 0 0.5rem;
+}
+
+div#output {
+	word-wrap: break-word;
+	font-family: monospace;
+	font-size: 0.85rem;
+}
+div#output p {
+	margin: 0.1rem auto;
+}
+div#output p.error{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+
+.input-wrapper[disabled] {
+	color: grey;
+}
+
+.item:focus {
+	background-color: rgb(0, 84, 255) !important;
+	color: white !important;
+}
+
+.button {
+	margin: 5px;
+	background-color: rgb(239, 239, 239);
+	border: 1px solid grey;
+	border-radius: 2px;
+	text-align: center;
+}
+.button:focus {
+	background-color: rgb(0, 84, 255);
+}
+.button[disabled] {
+	color: grey;
+	background-color: white;
+	border-color: lightgrey;
+}

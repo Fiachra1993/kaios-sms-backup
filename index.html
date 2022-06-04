@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+	<title>SMS Backup</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+	<h1>SMS Backup (v 0.0.1)</h1>
+	<hr>
+	<span>Settings</span><br>
+	<div class="item input-wrapper" tabindex="0" id="wrp-sms-enabled">
+		<input type="checkbox" id="sms-enable" checked="checked" value="true"/> Enable SMS
+	</div>
+	<div class="item input-wrapper" tabindex="0" id="wrp-mms-enabled">
+		<input type="checkbox" id="mms-enable" checked="checked" value="true"/> Enable MMS
+	</div>
+	<div class="button item" id="run" tabindex="0">Run</div>
+	<hr>
+	<div id="output"></div>
+	<script src="js/app.js"></script>
+</body>
