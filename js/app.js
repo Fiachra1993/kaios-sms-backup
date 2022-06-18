@@ -127,7 +127,7 @@ var Util = (function() {
 	// e.g. "2022-06-01T22:02:48.250Z"
 	function epochTimestampToUtcFormattedDate(timestamp) {
 		var date = new Date(timestamp);
-		return leftPadZero(date.getUTCFullYear(), 4) + '-' + leftPadZero(date.getUTCMonth(), 2) + '-' + 
+		return leftPadZero(date.getUTCFullYear(), 4) + '-' + leftPadZero(date.getUTCMonth() + 1, 2) + '-' + 
 			leftPadZero(date.getUTCDate(), 2) + 'T' + leftPadZero(date.getUTCHours(), 2) + ':' + 
 			leftPadZero(date.getUTCMinutes(), 2) + ':' + leftPadZero(date.getUTCSeconds(), 2) + '.' + 
 			leftPadZero(date.getUTCMilliseconds(), 3) + 'Z';
